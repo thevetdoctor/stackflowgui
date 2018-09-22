@@ -1,0 +1,133 @@
+
+* {
+
+	/*border: solid 1px;*/
+}
+
+
+body {
+	/*background-color: rgba(20, 20, 20, 0.7);*/
+	background-image: url(../images/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: all;
+	/*width: 70vw;*/
+	/*height: 80vh;*/
+	/*width: 60%;*/
+	margin: 10px auto;
+	font-size: 1.2em;
+	/*line-height: 24px;*/
+	text-align: center;
+	color: #000;
+	font-family: monospace;
+}
+.navbar {
+	display: flex;
+	justify-content: center;
+	/*justify-content: space-around;*/
+}
+
+.nav {
+	padding: 5px;
+	margin: 5px;
+	/*border: solid #fff 1px;*/
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav:hover {
+		background: coral;
+		color: #000;
+}
+
+#form {
+	 font-size: 0.7em;
+	 display: flex;
+	 margin: 5px;
+	 /*flex: column wrap;*/
+	 align-content: center;
+	 /*justify-content: right;*/
+}
+
+#display {
+	padding: 10px;
+	color: #000;
+	margin: 5px;
+}
+.container {
+
+}
+
+#submit {
+	 color: #fff;
+	 background-color: #300;
+	 /*padding: 4px;*/
+}
+
+input {
+	font-family: monospace;
+	font-size: 1em;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 6px;
+}
+
+.questDiv {
+		background-color: #fda;
+		color:#fff;
+		border-radius: 5px;
+		padding: 5px;
+		margin: 10px;
+		font-size: 1.2em;
+}
+
+.questAuthor {
+	font-size: 0.5em;
+}
+
+
+.questBtn {
+	background-color: #543;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+/*#signup {
+		border: solid #fff 1px;
+		border-radius: 5px;
+		background-color: #000;
+		color: #fff;
+		margin: 5px;
+		padding: 5px;
+
+}
+
+#login {
+		border: solid #fff 1px;
+		border-radius: 5px;
+		background-color: #000;
+		color: #fff;
+		margin: 5px;
+		padding: 5px;
+
+
+}*/
+
+
+#landing {
+	display: flex;
+	flex: column nowrap;
+	justify-content: center;
+}
+
+#signupForm {
+	display: flex;
+	justify-content: center;
+}
+
+#loginForm {
+	display: flex;
+	justify-content: center;
+}
