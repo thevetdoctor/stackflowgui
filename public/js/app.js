@@ -2,7 +2,7 @@ const swApp = () => {
 
 if('serviceWorker' in navigator){
 	console.log('SW supported');
-	navigator.serviceWorker.register('./sw.js', {scope: '/'})
+	navigator.serviceWorker.register('sw.js', {scope: '/'})
 	.then((res) => {
 	console.log('SW registered', res);
     console.log('Scope:', response.scope, 'State:', response.active.state);
